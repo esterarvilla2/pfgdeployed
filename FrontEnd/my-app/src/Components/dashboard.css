@@ -1,0 +1,126 @@
+/* Estilos para Resiliencia Urbana en App.css */
+
+/* Contenedor principal */
+.resiliencia {
+    background-color: #333; /* Fondo gris oscuro */
+    color: white; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Títulos de las categorías */
+  .resiliencia__titulo {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 2rem; /* Título más grande */
+    color: antiquewhite;
+  }
+  
+  /* Botones de menú */
+  .menu-button {
+    width: 100%;
+    color: white; /* Texto blanco */
+    background-color: #555; /* Fondo gris oscuro */
+    padding: 15px;
+    font-size: 1.2rem; /* Texto más grande */
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-transform: none; /* No transformar texto */
+  }
+  
+  .menu-button.active {
+    background-color: #e63946; /* Fondo rojo cuando activo */
+  }
+  
+  .menu-button:hover {
+    background-color: #666; /* Fondo gris más claro al pasar el mouse */
+  }
+  
+  /* Cajas de categorías */
+  .resiliencia__categoria {
+    background-color: #444; /* Gris más claro */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Estilo responsivo para la grilla de categorías */
+  @media (min-width: 768px) {
+    .resiliencia__categorias {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    .resiliencia__categoria {
+      flex-basis: calc(25% - 20px); /* Asume 10px de margen en cada lado */
+    }
+  }
+  
+  /* Estilos adicionales para los seleccionables */
+  .index-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .index-controls .MuiFormControl-root {
+    flex: 1;
+    width: 100%;
+  }
+  
+  .index-title {
+    text-align: center;
+    font-size: 1.5rem; /* Título más grande */
+    margin-bottom: 20px;
+    color: antiquewhite;
+  }
+  
+  .MuiSelect-select {
+    color: white; /* Texto blanco dentro del Select */
+    background-color: #555; /* Fondo gris oscuro para contraste */
+  }
+  
+  .MuiPaper-root {
+    background-color: #444; /* Cuadros grises */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: white; /* Texto blanco */
+  }
+  
+  .MuiTypography-h6 {
+    font-weight: bold;
+    color: white; /* Texto blanco */
+  }
+  
+  .dimension-button {
+    color: #fff; /* Texto blanco */
+    background-color: #666; /* Fondo gris oscuro */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dimension-button:hover {
+    background-color: #777;
+    color: white;
+  }
+  
+  .index-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .index-header img {
+    margin-right: 10px;
+  }
+  

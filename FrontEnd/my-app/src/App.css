@@ -1,0 +1,42 @@
+/* Estilos para Resiliencia Urbana en App.css */
+
+/* Contenedor principal */
+.resiliencia {
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Títulos de las categorías */
+.resiliencia__titulo {
+  margin-bottom: 10px; /* Espacio debajo del título */
+  color: antiquewhite;
+}
+
+/* Colores individuales de títulos de categorías */
+.resiliencia__titulo--economia { color: #e63946; } /* Rojo */
+.resiliencia__titulo--medioambiente { color: #2a9d8f; } /* Verde azulado */
+.resiliencia__titulo--sociedad { color: #f4a261; } /* Naranja */
+.resiliencia__titulo--gobernanza { color: #ea899a; } /* Azul oscuro */
+
+/* Cajas de categorías */
+.resiliencia__categoria {
+  background-color: #333; /* Gris oscuro */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* Estilo responsivo para la grilla de categorías */
+@media (min-width: 768px) {
+  .resiliencia__categorias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .resiliencia__categoria {
+    flex-basis: calc(25% - 20px); /* Asume 10px de margen en cada lado */
+  }
+}

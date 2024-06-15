@@ -1,0 +1,37 @@
+.city-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .index-box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .city-name {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .change-indicator {
+    font-size: 16px;
+    color: green; /* Default color, will change based on value */
+    text-align: center;
+  }
+  
+  .cluster-bar {
+    height: 10px;
+    width: 100%;
+  }
+  
+  /* Colors for cluster categories */
+  .cluster-1 { background-color: gold; }
+  .cluster-2 { background-color: lightblue; }
+  .cluster-3 { background-color: lightgreen; }
+  .cluster-4 { background-color: salmon; }
+  
